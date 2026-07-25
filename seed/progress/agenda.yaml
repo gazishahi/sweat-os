@@ -1,0 +1,8 @@
+# Managed by SWEAT OS. What the manager knows is coming.
+# The decision engine keeps a milestone mock always scheduled within the cadence, so
+# "an interview is coming up" is always true — that urgency drives daily decisions.
+# Add real interviews here (kind: real) and the manager will ramp prep toward them.
+version: 1
+milestone_cadence_days: 14
+interviews: []
+deadlines: []

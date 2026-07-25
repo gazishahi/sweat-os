@@ -1,0 +1,19 @@
+# Managed by SWEAT OS. Edit via scripts/engines, not by hand unless you know the schema.
+version: 1
+student:
+  name: Student
+  target: mid-to-senior
+  pace: steady
+  hours_per_week: 10
+  started: '2025-01-01'
+  timeline_weeks: 20
+  preferences: {}
+current:
+  sprint: sprints/sprint-01.md
+  day: 1
+  next_session: "Diagnostic calibration (Sprint 1) — seeds your skill matrix from real performance"
+stats:
+  interview_readiness: 0
+  streak_days: 0
+  total_hours: 0
+  last_session: null

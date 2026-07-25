@@ -1,0 +1,122 @@
+# Managed by SWEAT OS. Concept dependency DAG (not linear — shared prereqs expected).
+version: 1
+nodes:
+  big-o:
+    title: Big-O & Complexity Analysis
+    domain: algorithms
+    difficulty: 2
+    prerequisites: []
+    knowledge: knowledge/big-o.md
+    threshold_to_unlock: 3
+  arrays:
+    title: Arrays & Dynamic Arrays
+    domain: data-structures
+    difficulty: 2
+    prerequisites: [big-o]
+    knowledge: knowledge/arrays.md
+    threshold_to_unlock: 3
+  hash-maps:
+    title: Hash Maps & Sets
+    domain: data-structures
+    difficulty: 2
+    prerequisites: [big-o, arrays]
+    knowledge: knowledge/hash-maps.md
+    threshold_to_unlock: 3
+  two-pointer:
+    title: Two Pointers
+    domain: algorithms
+    difficulty: 2
+    prerequisites: [arrays]
+    knowledge: knowledge/two-pointer.md
+    threshold_to_unlock: 3
+  sliding-window:
+    title: Sliding Window
+    domain: algorithms
+    difficulty: 3
+    prerequisites: [arrays, hash-maps]
+    knowledge: knowledge/sliding-window.md
+    threshold_to_unlock: 3
+  prefix-sum:
+    title: Prefix Sum
+    domain: algorithms
+    difficulty: 2
+    prerequisites: [arrays]
+    knowledge: knowledge/prefix-sum.md
+    threshold_to_unlock: 3
+  linked-lists:
+    title: Linked Lists
+    domain: data-structures
+    difficulty: 2
+    prerequisites: [big-o]
+    knowledge: knowledge/linked-lists.md
+    threshold_to_unlock: 3
+  recursion:
+    title: Recursion & Call Stack
+    domain: algorithms
+    difficulty: 3
+    prerequisites: [big-o]
+    knowledge: knowledge/recursion.md
+    threshold_to_unlock: 3
+  trees:
+    title: Trees & Binary Search Trees
+    domain: data-structures
+    difficulty: 3
+    prerequisites: [recursion, linked-lists]
+    knowledge: knowledge/trees.md
+    threshold_to_unlock: 3
+  graphs:
+    title: Graphs (Representation)
+    domain: data-structures
+    difficulty: 3
+    prerequisites: [trees, hash-maps]
+    knowledge: knowledge/graphs.md
+    threshold_to_unlock: 3
+  bfs-dfs:
+    title: BFS & DFS
+    domain: algorithms
+    difficulty: 3
+    prerequisites: [graphs]
+    knowledge: knowledge/bfs-dfs.md
+    threshold_to_unlock: 3
+  sql-indexes:
+    title: SQL Indexes & Query Planning
+    domain: databases
+    difficulty: 3
+    prerequisites: [big-o]
+    knowledge: knowledge/sql-indexes.md
+    threshold_to_unlock: 3
+  transactions:
+    title: Transactions & Isolation Levels
+    domain: databases
+    difficulty: 4
+    prerequisites: [sql-indexes]
+    knowledge: knowledge/transactions.md
+    threshold_to_unlock: 3
+  http:
+    title: HTTP & the Request Lifecycle
+    domain: networking
+    difficulty: 2
+    prerequisites: []
+    knowledge: knowledge/http.md
+    threshold_to_unlock: 3
+  caching:
+    title: Caching Strategies
+    domain: system-design
+    difficulty: 3
+    prerequisites: [hash-maps, http]
+    knowledge: knowledge/caching.md
+    threshold_to_unlock: 3
+  react-rendering:
+    title: React Rendering & Reconciliation
+    domain: frontend
+    difficulty: 3
+    prerequisites: []
+    knowledge: knowledge/react-rendering.md
+    threshold_to_unlock: 3
+  node-event-loop:
+    title: Node.js Event Loop & Async
+    domain: backend
+    difficulty: 3
+    prerequisites: []
+    knowledge: knowledge/node-event-loop.md
+    threshold_to_unlock: 3

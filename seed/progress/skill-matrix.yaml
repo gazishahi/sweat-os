@@ -1,0 +1,419 @@
+# Managed by SWEAT OS. Edit via scripts/engines, not by hand unless you know the schema.
+version: 1
+domains:
+  algorithms:
+    label: Algorithms
+    weight: 3
+    skills:
+      big-o:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      two-pointer:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      sliding-window:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      prefix-sum:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      recursion:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      bfs-dfs:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      dynamic-programming:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      sorting:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      binary-search:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  data-structures:
+    label: Data Structures
+    weight: 3
+    skills:
+      arrays:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      hash-maps:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      linked-lists:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      stacks-queues:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      trees:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      heaps:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      graphs:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      tries:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  system-design:
+    label: System Design
+    weight: 3
+    skills:
+      caching:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      load-balancing:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      replication:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      message-queues:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      consistency:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      rate-limiting:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      api-gateway:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  databases:
+    label: Databases
+    weight: 2
+    skills:
+      sql-basics:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      sql-indexes:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      transactions:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      schema-design:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      normalization:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  networking:
+    label: Networking
+    weight: 2
+    skills:
+      http:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      tcp:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      dns:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      tls:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  operating-systems:
+    label: Operating Systems
+    weight: 2
+    skills:
+      processes-threads:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      memory-management:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      concurrency:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      scheduling:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  distributed-systems:
+    label: Distributed Systems
+    weight: 2
+    skills:
+      partitioning:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      consensus:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      cap-theorem:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      idempotency:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  backend:
+    label: Backend (Node)
+    weight: 2
+    skills:
+      node-event-loop:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      api-design:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      authentication:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      background-jobs:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  frontend:
+    label: Frontend (React/Next/TS)
+    weight: 2
+    skills:
+      react-rendering:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      typescript:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      nextjs:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      state-management:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  communication:
+    label: Communication
+    weight: 2
+    skills:
+      explaining-tradeoffs:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      thinking-aloud:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      whiteboarding:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  debugging:
+    label: Debugging
+    weight: 1
+    skills:
+      root-cause-analysis:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      reading-unfamiliar-code:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  security:
+    label: Security
+    weight: 1
+    skills:
+      authn-authz:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      common-vulnerabilities:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  architecture:
+    label: Architecture
+    weight: 1
+    skills:
+      system-decomposition:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      design-patterns:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+  product-engineering:
+    label: Product Engineering
+    weight: 1
+    skills:
+      requirements-gathering:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null
+      shipping-tradeoffs:
+        mastery: 0
+        confidence: 0
+        interview_readiness: 0
+        last_reviewed: null
+        review_due: null

@@ -1,0 +1,26 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
+dist/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PERSONAL TRAINING DATA — never commit to the public template.
+# The framework ships pristine versions under seed/; `npm run setup` copies them
+# into these live paths on a fresh clone. Your real progress stays local only.
+# (To back it up privately, point a separate PRIVATE repo at these paths.)
+# ─────────────────────────────────────────────────────────────────────────────
+/progress/*.yaml
+/DASHBOARD.md
+/reflections/
+/backlog/issue-*.md
+/backlog/_index.yaml
+/interviews/sessions/
+/practice/
+/homework/
+/projects/
+/sprints/
+/curriculum/lesson-plans/
+
+# Keep the seeds themselves tracked (they live under seed/, unaffected above).

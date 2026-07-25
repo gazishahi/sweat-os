@@ -1,0 +1,4 @@
+# Managed by SWEAT OS. Append-only log of skill scores over time.
+# Written by `npm run assess -- <skill> <mastery> <readiness> [confidence]`.
+version: 1
+events: []

@@ -1,0 +1,21 @@
+# Managed by SWEAT OS. Fast lookup of concept -> file + mastery mirror.
+# The skill matrix is authoritative for scoring; this mirrors teaching content.
+version: 1
+concepts:
+  big-o: { file: knowledge/big-o.md, mastery: 0 }
+  arrays: { file: knowledge/arrays.md, mastery: 0 }
+  hash-maps: { file: knowledge/hash-maps.md, mastery: 0 }
+  two-pointer: { file: knowledge/two-pointer.md, mastery: 0 }
+  sliding-window: { file: knowledge/sliding-window.md, mastery: 0 }
+  prefix-sum: { file: knowledge/prefix-sum.md, mastery: 0 }
+  linked-lists: { file: knowledge/linked-lists.md, mastery: 0 }
+  recursion: { file: knowledge/recursion.md, mastery: 0 }
+  trees: { file: knowledge/trees.md, mastery: 0 }
+  graphs: { file: knowledge/graphs.md, mastery: 0 }
+  bfs-dfs: { file: knowledge/bfs-dfs.md, mastery: 0 }
+  sql-indexes: { file: knowledge/sql-indexes.md, mastery: 0 }
+  transactions: { file: knowledge/transactions.md, mastery: 0 }
+  http: { file: knowledge/http.md, mastery: 0 }
+  caching: { file: knowledge/caching.md, mastery: 0 }
+  react-rendering: { file: knowledge/react-rendering.md, mastery: 0 }
+  node-event-loop: { file: knowledge/node-event-loop.md, mastery: 0 }

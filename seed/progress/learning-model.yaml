@@ -1,0 +1,51 @@
+# Managed by SWEAT OS. The OS's evolving model of HOW this student learns.
+# The Reflection Engine updates this from observed performance; the decision engine
+# (plan-day) reads it to tune its choices. This is how the OS refines itself over time.
+# Everything starts "unknown" (null / neutral 1.0) and sharpens as evidence accumulates.
+version: 1
+
+# First-attempt spaced-repetition pass rate per domain (0-1, null = not enough data).
+# Low retention in a domain => the manager weights its reviews higher.
+retention:
+  algorithms: null
+  data-structures: null
+  system-design: null
+  databases: null
+  networking: null
+  operating-systems: null
+  distributed-systems: null
+  backend: null
+  frontend: null
+  communication: null
+  debugging: null
+  security: null
+  architecture: null
+  product-engineering: null
+
+# Average hint-ladder rung needed in interviews (lower = more independent). null = unknown.
+avg_hint_rung: null
+
+# Observed best focused-session length. Start at the steady-pace default.
+optimal_session_minutes: 75
+
+# A skill worked on with no mastery gain across this many days counts as a plateau.
+plateau_days: 14
+
+# skill or domain -> the modality that actually moved the needle (learned over time),
+# e.g., recursion: teach-back. The manager prefers a skill's best-fit modality and, on a
+# plateau, deliberately switches away from whatever stopped working.
+modality_fit: {}
+
+# Freeform observations the manager should honor (e.g., "prefers deriving before being
+# shown", "fades after ~90 min", "strong on implementation, weak on verbal tradeoffs").
+notes: []
+
+# Tunable multipliers the decision engine applies per task family. The Reflection Engine
+# nudges these as it learns what produces real progress for this student.
+policy_weights:
+  review: 1.0
+  interview: 1.0
+  issue: 1.0
+  plateau: 1.0
+  learn: 1.0
+  rest: 1.0

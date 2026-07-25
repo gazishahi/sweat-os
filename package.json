@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "SWEAT OS — a persistent, file-based engineering training operating system operated by Claude Code.",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "setup": "tsx scripts/setup.ts",

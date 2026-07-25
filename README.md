@@ -116,3 +116,8 @@ SWEAT OS is built to be cheap on tokens so it doesn't eat into your real work qu
 - **The curriculum is a graph, not a line.** Prerequisites gate unlocking.
 - **The OS improves itself.** Gaps in curriculum, assessment, or analytics are treated
   as work items, not permanent limitations.
+
+## License
+
+[MIT](./LICENSE) © 2026 Gazi Shahi. Use it, fork it, modify it, build on it — go wild.
+Contributions and forks are welcome.

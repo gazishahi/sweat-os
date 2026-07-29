@@ -88,6 +88,7 @@ ignored paths — nothing personal ever lands in this public one.
 | `resources/` | Curated external resource pointers |
 | `templates/` | Blank templates for every record type |
 | `seed/` | Pristine, identity-free starting state; `npm run setup` copies it into your live (git-ignored) paths |
+| `AUTHORING.md` / `CONTRIBUTING.md` | How to fork SWEAT OS into a new domain, and how to contribute |
 | `editor/` | Neovim setup: Claude Code plugin spec + the interview-sim profile (see `editor/README.md`) |
 | `scripts/` | TypeScript helpers (validate, plan, dashboard, spaced-repetition, sprint, exercise) |
 
@@ -116,6 +117,23 @@ SWEAT OS is built to be cheap on tokens so it doesn't eat into your real work qu
 - **The curriculum is a graph, not a line.** Prerequisites gate unlocking.
 - **The OS improves itself.** Gaps in curriculum, assessment, or analytics are treated
   as work items, not permanent limitations.
+
+## Forks & spinoffs
+
+The "brain" — the manager that decides your daily task, spaced repetition, mock-interview
+engine, reflection, dashboard — is **domain-agnostic**. A learning path is just data (a
+curriculum graph + knowledge nodes + a skill matrix), so you can point SWEAT OS at a whole
+new domain — DevOps/SRE, ML, security, data engineering, a language — by swapping the data
+and keeping the engine.
+
+- **Author a path:** [AUTHORING.md](./AUTHORING.md) — stand up a new domain in an afternoon.
+- **Contribute:** [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+Built one? Open a PR and add it here:
+
+| Fork | Domain | By |
+|---|---|---|
+| _(yours could be first)_ | | |
 
 ## License
 

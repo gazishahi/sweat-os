@@ -17,5 +17,8 @@ concepts:
   transactions: { file: knowledge/transactions.md, mastery: 0 }
   http: { file: knowledge/http.md, mastery: 0 }
   caching: { file: knowledge/caching.md, mastery: 0 }
+  system-design-fundamentals: { file: knowledge/system-design-fundamentals.md, mastery: 0 }
+  requirements-gathering: { file: knowledge/requirements-gathering.md, mastery: 0 }
+  system-decomposition: { file: knowledge/system-decomposition.md, mastery: 0 }
   react-rendering: { file: knowledge/react-rendering.md, mastery: 0 }
   node-event-loop: { file: knowledge/node-event-loop.md, mastery: 0 }

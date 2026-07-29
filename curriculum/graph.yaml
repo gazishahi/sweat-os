@@ -106,6 +106,27 @@ nodes:
     prerequisites: [hash-maps, http]
     knowledge: knowledge/caching.md
     threshold_to_unlock: 3
+  system-design-fundamentals:
+    title: System Design — The Process
+    domain: system-design
+    difficulty: 3
+    prerequisites: [http]
+    knowledge: knowledge/system-design-fundamentals.md
+    threshold_to_unlock: 3
+  requirements-gathering:
+    title: Requirements Gathering
+    domain: product-engineering
+    difficulty: 3
+    prerequisites: [system-design-fundamentals]
+    knowledge: knowledge/requirements-gathering.md
+    threshold_to_unlock: 3
+  system-decomposition:
+    title: System Decomposition
+    domain: architecture
+    difficulty: 4
+    prerequisites: [system-design-fundamentals, requirements-gathering]
+    knowledge: knowledge/system-decomposition.md
+    threshold_to_unlock: 3
   react-rendering:
     title: React Rendering & Reconciliation
     domain: frontend
